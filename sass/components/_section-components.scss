@@ -1,0 +1,7 @@
+.section-list {
+    display: flex;
+  }
+  .section-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  

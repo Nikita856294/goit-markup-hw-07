@@ -427,7 +427,7 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-section__logo-link {
+.footer-logo__link {
   margin-bottom: 20px;
   display: block;
 }
@@ -483,7 +483,7 @@ body {
   fill: #ffff;
 }
 
-.footer-section__logo {
+.footer-logo {
   margin-right: 70px;
 }
 
@@ -492,7 +492,7 @@ body {
   flex-direction: column;
 }
 
-.footer-section__logo-span {
+.footer-logo__span {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;

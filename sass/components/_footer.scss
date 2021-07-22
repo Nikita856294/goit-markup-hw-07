@@ -1,5 +1,5 @@
 /* Footer components */
-.footer-item:not(:last-child) {
+.footer-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-logo__link {
@@ -19,7 +19,7 @@
   display: flex;
   align-items: baseline;
 }
-.footer-text {
+.footer-join__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -28,27 +28,27 @@
   color: #ffffff;
 }
 
-.footer-icon-list {
+.footer__icon-list {
   display: flex;
   margin-top: 20px;
 }
-.footer-icon-link {
+.footer__icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
   transition: background-color 250ms var(--timing-function);
 }
-.footer-icon-link:hover,
-.footer-icon-link:focus {
-  background-color: #2196f3;
+.footer__icon-link:hover,
+.footer__icon-link:focus {
+  background-color: var(--accent-color);
 }
 
-.footer-icon {
+.footer__icon {
   width: 20px;
   height: 20px;
   fill: #ffff;
@@ -56,7 +56,7 @@
 .footer-logo {
   margin-right: 70px;
 }
-.footer-icon-section {
+.footer-join {
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +69,7 @@
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-.address-text {
+.address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -79,26 +79,27 @@
 .footer-list {
   margin-top: 9px;
 }
-.footer-link {
+.footer-list__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms var(--timing-function);
 }
-.footer-link:hover,
-.footer-link:focus {
+.footer-list__link:hover,
+.footer-list__link:focus {
   color: var(--secondary-color);
 }
+
 /* Footer-form */
 .footer-form {
   margin-left: 93px;
 }
-.footer-subscribe {
+.footer-form__subscribe {
   display: flex;
 }
 
-.Subscribe {
+.footer-form__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -125,7 +126,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-button {
+.footer-form__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +143,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.footer-form-icon {
+.footer-form__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

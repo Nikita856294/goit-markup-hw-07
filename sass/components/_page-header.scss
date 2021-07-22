@@ -94,7 +94,8 @@
   fill: #757575;
   transition: fill 250ms var(--timing-function);
 }
-.communication-list__icon-link:hover {
+.communication-list__icon-link:hover,
+.communication-list__icon-link:focus {
   fill: var(--accent-color);
 }
 .communication-list__icon {

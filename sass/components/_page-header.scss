@@ -1,102 +1,102 @@
 /* HEADER */
 
-  .header {
-    border-bottom: 1px solid #ececec;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-  .header-container {
-    display: flex;
-    align-items: center;
-  }
-  .navigation {
-    display: flex;
-  }
-  .nav-link-container {
-    display: flex;
-  }
-  .header-link-container {
-    display: flex;
-    margin-left: auto;
-  }
-  .header-link-container-item:not(:last-child) {
-    margin-right: 50px;
-  }
-  .header-button {
-    display: flex;
-    align-items: center;
-  }
-  .name-company-container {
-    margin-right: 93px;
-  }
-  .nav-item:not(:last-child) {
-    margin-right: 50px;
-  }
-  .company {
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--company-text-color);
-  }
-  .company-span {
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-  }
-  .nav-link-title {
-    position: relative;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--title-color);
-    transition: color 250ms var(--timing-function);
-  }
-  
-  .nav-link-title:hover,
-  .nav-link-title:focus {
-    color: var(--accent-color);
-  }
-  .nav-link-title.current {
-    padding: 28px 0px;
-    color: var(--accent-color);
-  }
-  .nav-link-title.current::after {
-    content: '';
-    position: absolute;
-    display: block;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-  
-    background-color: #2196f3;
-    border-radius: 2px;
-  }
-  .nav-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    transition: color 250ms var(--timing-function);
-  }
-  .nav-link:hover,
-  .nav-link:focus {
-    color: var(--accent-color);
-  }
-  .nav-icon-list-item {
-    fill: #757575;
-    transition: fill 250ms var(--timing-function);
-  }
-  .nav-icon-list-item:hover {
-    fill: var(--accent-color);
-  }
-  .nav-link-icon {
-    margin-right: 10px;
-  }
+.header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+}
+.communication-list {
+  display: flex;
+  margin-left: auto;
+}
+.communication-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+}
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--company-text-color);
+  margin-right: 93px;
+}
+.logo__span {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.nav-list__link {
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  transition: color 250ms var(--timing-function);
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  color: var(--accent-color);
+}
+.nav-list__link.current {
+  padding: 28px 0px;
+  color: var(--accent-color);
+}
+.nav-list__link.current::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+.communication-list__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  transition: color 250ms var(--timing-function);
+}
+.communication-list__link:hover,
+.communication-list__link:focus {
+  color: var(--accent-color);
+}
+.communication-list__icon-link {
+  fill: #757575;
+  transition: fill 250ms var(--timing-function);
+}
+.communication-list__icon-link:hover {
+  fill: var(--accent-color);
+}
+.communication-list__icon {
+  margin-right: 10px;
+}

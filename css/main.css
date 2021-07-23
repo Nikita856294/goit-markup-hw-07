@@ -128,11 +128,6 @@ body {
   border-radius: 2px;
 }
 
-.header-button {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;

@@ -831,7 +831,7 @@ body {
   border-radius: 2px;
 }
 
-.modal-form__input--agree:focus + .modal-form_checkbox:before {
+.modal-form__input--agree:focus + .modal-form__checkbox:before {
   border-color: var(--accent-color);
 }
 

@@ -81,7 +81,7 @@
     border: 2px solid var(--accent-color);
     border-radius: 2px;
   }
-  &__input--agree:focus + &_checkbox:before {
+  &__input--agree:focus + &__checkbox:before {
     border-color: var(--accent-color);
   }
   &__checkbox:before {

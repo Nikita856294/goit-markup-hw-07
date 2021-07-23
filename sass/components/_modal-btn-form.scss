@@ -68,7 +68,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
   &__textarea:hover,
-  &__ textarea:focus {
+  &__textarea:focus {
     border-color: var(--accent-color);
   }
   &__input--agree:checked + &__checkbox:before {

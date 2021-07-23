@@ -816,8 +816,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form__textarea:hover,
-.modal-form__ textarea:focus {
+.modal-form__textarea:hover, .modal-form__textarea:focus {
   border-color: var(--accent-color);
 }
 

@@ -5,10 +5,10 @@
 .section-list {
   display: flex;
 }
-.section_item:not(:last-child) {
+.section__item:not(:last-child) {
   margin-right: 30px;
 }
-.section_title {
+.section__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -17,7 +17,7 @@
   color: var(--title-color);
   margin-bottom: 50px;
 }
-.section_text {
+.section__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;

@@ -33,15 +33,16 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
-}
-.close-btn:hover,
-.close-btn:focus {
-  fill: var(--accent-color);
-}
-.close-btn__svg {
-  width: 11px;
-  height: 11px;
-  transition: fill 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+  &__svg {
+    width: 11px;
+    height: 11px;
+    transition: fill 250ms var(--timing-function);
+  }
 }
 .is-hidden {
   opacity: 0;
